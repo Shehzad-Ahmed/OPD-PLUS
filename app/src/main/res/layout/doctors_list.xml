@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FC3F7"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        style="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctor_name"/>
+    <TextView
+        style="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctor_specialization"/>
+    <TextView
+        style="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctor_emailAddress"/>
+    <TextView
+        style="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctor_feesPerAppoin"
+        />
+
+
+</LinearLayout>
+
+

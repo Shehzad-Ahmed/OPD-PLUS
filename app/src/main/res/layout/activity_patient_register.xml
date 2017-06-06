@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_patient_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thecreators.android.opdplus.PatientRegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ECEFF1">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/register_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+<ScrollView
+    android:id="@+id/register_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CNIC"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/cnic_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g 4140879849257"
+        android:paddingLeft="16dp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g Shehzad Ahmed"
+        android:paddingLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father name"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/father_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g Muhammad Khan"
+        android:paddingLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/email_address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g shehzadahmed@gmail.com"
+            android:paddingLeft="16dp"
+            android:inputType="textEmailAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/phone_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g 03336759251"
+            android:paddingLeft="16dp"
+            android:inputType="phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allergies"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/allergies_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Egg Allergy, Latex Allergy"
+            android:paddingLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/blood_group_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g B+"
+            android:paddingLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Gulshan-e-Hadeed Karachi"
+            android:paddingLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textAllCaps="true"
+        android:clickable="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a Secure Password"
+            android:paddingLeft="16dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:text="Create my account"
+            android:textAllCaps="true"
+            />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

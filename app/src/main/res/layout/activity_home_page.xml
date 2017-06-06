@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thecreators.android.opdplus.HomePageActivity"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<RelativeLayout
+    android:id="@+id/welcome_block"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/history"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="50dp"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>
+
+<Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+
+            android:id="@+id/doctors_panel"
+            android:background="#4FC3F7"
+            android:layout_margin="1dp"
+            android:text="Doctors"
+
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/appointment_panel"
+                android:background="#4FC3F7"
+                android:layout_margin="1dp"
+                android:text="my appointments"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/history_panel"
+                android:background="#4FC3F7"
+                android:layout_margin="1dp"
+                android:text="History"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

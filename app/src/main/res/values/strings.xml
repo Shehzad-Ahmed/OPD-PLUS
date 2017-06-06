@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OPDplus</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phoneNumber">Phone Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This Phone Number is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Create_An_Account_button">Create an Account</string>
+    <string name="ip">192.168.0.104</string>
+    <string name="URL_Registration">http://164.20.20.101/AndroidRegister.php</string>
+    <string name="URL_Login">http://164.20.20.101/login.php</string>
+    <string name="URL_Tracking">http://164.20.20.101/AndroidAppointmentTracking.php</string>
+    <string name="URL_PriscriptionImage">http://164.20.20.101/AndroidPriscriptionImage.php</string>
+    <string name="URL_History">http://164.20.20.101/AndroidHistory.php</string>
+    <string name="URL_MyAppointments">http://164.20.20.101/AndroidMyAppointment.php</string>
+    <string name="URL_doctorTimings_MakeAppointment">http://164.20.20.101/AndroidDoctorsTiming.php</string>
+    <string name="URL_DoctorsInfo">http://164.20.20.101/AndroidDoctorsInfo.php</string>
+    <string name="URL_BookAppointment">http://164.20.20.101/AndroidBookAppointment.php</string>
+</resources>
